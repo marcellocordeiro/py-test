@@ -26,6 +26,6 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: Python tests
-        uses: minakoari/actions-test@main
+        uses: marcellocordeiro/stress-action@main
         with:
           test_type: pytest
