@@ -29,3 +29,5 @@ jobs:
         uses: marcellocordeiro/stress-action@main
         with:
           test_type: pytest
+          no_stress_runs: 2
+          stress_runs: 2
