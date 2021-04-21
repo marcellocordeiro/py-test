@@ -28,6 +28,6 @@ jobs:
       - name: Python tests
         uses: marcellocordeiro/stress-action@main
         with:
-          test_type: pytest
+          testing_tool: pytest
           no_stress_runs: 2
           stress_runs: 2
